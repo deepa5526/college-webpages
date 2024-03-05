@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+ 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Norican&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400&family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="stylecss.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section  class="header">  
+<nav>
+
+    <a href="webpage.html"> <img src="edu.png" alt="" height="80px" width="80px"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu"></i>
+        <ul>
+            <li><a href="#"> HOME</a></li>
+            <li><a  href="about.jpg" target="_blank">ABOUT US</li>
+            <li><a href="course.png" target="_blank" > COURSE</a></li>
+            <li><a href="blogs.webp" target="_blank"> BLOG</a></li>
+            <li><a href="contact.jpg" target="_blank"> CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu"></i>
+</nav>
+<div class="text-box">
+    <h1>World's Biggest University</h1>
+
+    <p>A university differs from a college in that it is usually larger, has 
+        a broader curriculum,  
+  <br> university offers graduate and professional degrees in addition to 
+        undergraduate degrees. <br>
+         </p>
+        <button><a href="" class="hero-btn"> Visit us to know More</a> </button>
+</div>
+    </section>
+<section class="course">
+<h1> Courses We Offer</h1>
+<p> University differ from High School such as number of lectures, time of lectures and exams.
+     First of All, in university you choose your lectures but, in school you have 6 or 5 classes. 
+     Second, in university you can choose your time lectures for example, you have some in the morning and 
+     some lectures in the afternoon. Finally, in University you have to study hard to get a high marks because of hard exam, 
+    but in School isn't much difficult than University exams.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vitae possimus dolores 
+                ipsam error magni autem pariatur ex ad cum, eius, 
+                odio illo commodi aperiam facilis! Cum officia similique amet?</p>
+        </div>
+    
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vitae possimus dolores 
+                    ipsam error magni autem pariatur ex ad cum, eius, 
+                    odio illo commodi aperiam facilis! Cum officia similique amet?</p>
+            </div>
+    
+                <div class="course-col">
+                    <h3>Post Graduction</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vitae possimus dolores 
+                        ipsam error magni autem pariatur ex ad cum, eius, 
+                        odio illo commodi aperiam facilis! Cum officia similique amet?</p>
+                </div>
+    </div>
+</section>
+<section class="campus">
+<h1>Our Global campus</h1>
+<p>We have very vast and Fantastic campus </p>
+
+
+<div class="row">
+    <div class="campus-col">
+        <img src="trees.avif" alt="">
+        <div class="layer">
+            <h3>LONDON</h3>
+        </div>
+    </div>
+    
+        <div class="campus-col">
+            <img src="people.webp" alt="">
+            <div class="layer">
+            <h3>NEW YORK</h3>
+            </div>
+            
+        </div>
+
+            <div class="campus-col">
+                <img src="buildings.webp" alt="">
+                <div class="layer"><h3>WASHINGTON</h3></div>
+                </div>
+            </div>
+        </div>  
+</section>
+
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+    
+</body>
+</html>
+
